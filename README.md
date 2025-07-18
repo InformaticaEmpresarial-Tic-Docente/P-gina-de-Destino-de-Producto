@@ -45,7 +45,7 @@ Este proyecto de certificación consiste en la creación de una página de desti
 Profundiza en Flexbox con el curso [Diseño Web Responsivo de FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 
 ## 🖼️ Demo del Proyecto
-[Ver Página de Destino de Producto](https://informaticaempresarial-tic-docente.github.io/GaleriaFlexboxCSS/)
+[Ver Página de Destino de Producto](https://informaticaempresarial-tic-docente.github.io/P-gina-de-Destino-de-Producto/)
 
 ## 👨‍💻 Contacto del Desarrollador
 **Victoriano Domínguez Henríquez**  
