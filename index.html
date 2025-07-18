@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de destino para nuestro producto innovador">
+    <title>Producto Innovador | Soluciones Tecnológicas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo-container">
+        <img
+          src="https://via.placeholder.com/150x50?text=Logo+Empresa"
+          alt="Logo de la empresa"
+          id="header-img"
+          loading="lazy"
+        />
+      </div>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Características</a>
+        <a class="nav-link" href="#video-section">Demo</a>
+        <a class="nav-link" href="#contact">Contacto</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Menú móvil">
+        <i class="fas fa-bars"></i>
+      </button>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="hero-content">
+          <h1>Soluciones Tecnológicas Innovadoras</h1>
+          <p class="hero-subtitle">Descubre cómo nuestro producto puede transformar tu negocio</p>
+          <a href="#contact" class="cta-button">Contáctanos</a>
+        </div>
+      </section>
+
+      <section id="features" class="features-section">
+        <h2>Características destacadas</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fas fa-lightbulb feature-icon"></i>
+            <h3>Innovador</h3>
+            <p>Tecnología de vanguardia diseñada para simplificar tus procesos.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-award feature-icon"></i>
+            <h3>Alta calidad</h3>
+            <p>Productos certificados con los más altos estándares de la industria.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-headset feature-icon"></i>
+            <h3>Soporte 24/7</h3>
+            <p>Asistencia técnica disponible cuando la necesites.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="video-section" class="video-section">
+        <div class="video-container">
+          <h2>Conoce nuestro producto en acción</h2>
+          <div class="video-wrapper">
+            <iframe
+              id="video"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="Demo del producto"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-container">
+          <h2>¿Listo para comenzar?</h2>
+          <p>Déjanos tu correo y nos pondremos en contacto contigo</p>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="form-group">
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Ingresa tu correo electrónico"
+                required
+                aria-label="Correo electrónico"
+              />
+              <button id="submit" type="submit" class="submit-btn">
+                Enviar <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <img src="https://via.placeholder.com/150x50?text=Logo+Empresa" alt="Logo de la empresa" loading="lazy">
+          <p class="footer-text">Transformando ideas en soluciones tecnológicas desde 2023</p>
+          <p class="copyright">© 2023 Empresa Innovadora. Todos los derechos reservados.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Enlaces rápidos</h3>
+          <ul>
+            <li><a href="#features">Características</a></li>
+            <li><a href="#video-section">Demo</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-social">
+          <h3>Síguenos</h3>
+          <ul class="social-links">
+            <li>
+              <a href="https://web.facebook.com/profile.php?id=61573209977446&locale=es_LA" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/victoriano-dominguez-henríquez-614785144" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/InformaticaEmpresarial-Tic-Docente/InformaticaEmpresarial-Tic-Docente" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>Desarrollado con <i class="fas fa-heart"></i> por nuestro equipo</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
